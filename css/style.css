@@ -1,0 +1,288 @@
+a:hover{
+	text-decoration: none;
+}
+.max-hei {
+	height: 100px;
+	line-height: 100px;
+	background-color: #fff;
+}
+
+.head-text a {
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
+.head-text a:hover{
+	color: #428bca;
+}
+.head-text,
+.head-fbyout,
+.aply-text h3,
+.head-text h5,
+.aply-text img,
+.active-text img,
+.active-text h3,
+.more img,
+.more p,
+.subs-text p {
+	display: inline-block;
+}
+
+.head-fbyout {
+	float: right;
+}
+
+.head-fbyout img {
+	margin: 0 10px;
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-max img {
+	width: 100%;
+}
+
+.apply-max {
+	background: url(../img/bodybg.jpg) no-repeat right center;
+	background-size: cover;
+	padding: 20px 0;
+}
+
+.aply-text img,
+.active-text img {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.aply-text h3 {
+	color: #fff;
+}
+
+.bor-b {
+	margin-top: 30px;
+	height: 2px;
+	background-color: #fff;
+}
+
+.active-text {
+	margin-bottom: 10px;
+}
+
+.ac-main-text {
+	font-size: 17px;
+	margin-top: 10px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+}
+
+.sanheng {
+	width: 30px;
+}
+
+.img-top-bor {
+	border-top: 5px solid #3686c4;
+	max-width: 547px;
+	max-height: 355px;
+}
+
+.ac-btn {
+	width: 200px;
+	height: 50px;
+	background-color: #cfcfcf;
+	border: solid 2px #000000;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.ac-btn:hover {
+	background-color: #3686c4;
+	color: #fff;
+}
+
+.more img {
+	width: 20px;
+}
+
+.more p {
+	color: #fff;
+}
+
+.video-max {
+	padding: 50px 0 30px 0;
+	background: url(../img/body_bg2.jpg) no-repeat left top;
+	background-size: contain;
+}
+
+.vide-min {
+	position: relative;
+	max-width: 547px;
+	max-height: 355px;
+	cursor: pointer;
+	margin: 0 auto 30px auto;
+}
+
+.vide-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #4a4a4a50;
+}
+
+.vide-text:hover {
+	background-color: #00000095;
+}
+
+.vide-text img {
+	width: 89px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.vide-text:hover img {
+	transform: translate(-50%, -100%);
+}
+
+.vide-text:hover .vide-conten {
+	opacity: 1;
+}
+
+.vide-text img,
+.vide-conten,
+.vide-text {
+	transition: all 0.4s;
+}
+
+.vide-conten {
+	color: #fff;
+	font-size: 17px;
+	padding: 0px 10px;
+	position: absolute;
+	bottom: 30px;
+	opacity: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+
+.vide-img img {
+	width: 100%;
+}
+
+.subs-text {
+	padding: 10px 0;
+	background-color: #3686c4;
+}
+
+.subs-text p {
+	font-size: 20px;
+	color: #fff;
+	line-height: 80px;
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+
+.subs-text input {
+	width: 100%;
+	height: 46px;
+	margin-top: 18px;
+}
+
+.subs-text button {
+	width: 150px;
+	height: 46px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #f4bc32;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 18px;
+}
+
+.xzgd {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.lxus {
+	padding: 50px 0 30px 0;
+	background-color: #dcdddc;
+}
+
+.copy {
+	padding: 20px 0;
+}
+
+.copy img {
+	width: 300px;
+	margin-bottom: 25px;
+}
+
+.copy p {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.back-top {
+	color: #004098;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+@-webkit-keyframes hvr-back-pulse {
+	50% {
+		background-color: rgba(32, 152, 209, 0.75);
+	}
+}
+
+@keyframes hvr-back-pulse {
+	50% {
+		background-color: rgba(32, 152, 209, 0.75);
+	}
+}
+
+.hvr-back-pulse {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	overflow: hidden;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: color, background-color;
+	transition-property: color, background-color;
+}
+
+.hvr-back-pulse:hover,
+.hvr-back-pulse:focus,
+.hvr-back-pulse:active {
+	-webkit-animation-name: hvr-back-pulse;
+	animation-name: hvr-back-pulse;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	background-color: #2098D1;
+	background-color: #2098d1;
+	color: white;
+}

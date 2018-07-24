@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+	.max-hei {
+		height: 60px;
+		line-height: 60px;
+	}
+	.tw-logo {
+		width: 200px;
+	}
+	.aply-text h3,
+	.active-text h3 {
+		font-size: 20px;
+	}
+	.ac-main-text {
+		font-size: 14px;
+	}
+	.subs-text .col-sm-4 {
+		text-align: center;
+	}
+	.subs-text .col-sm-2 {
+		text-align: center;
+	}
+	.copy p {
+		text-align: left !important;
+	}
+	.vide-text img{
+		width: 59px;
+	}
+	.subs-text button{
+		margin-bottom: 30px;
+	}
+	.xs-center{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.vide-conten {
+		font-size: 14px;
+		bottom: 10px;
+	}
+	.copy {
+		text-align: center;
+	}
+}

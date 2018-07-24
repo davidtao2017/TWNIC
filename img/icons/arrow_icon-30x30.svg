@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-152.000000, -744.000000)">
+            <g id="arrow_icon" transform="translate(150.000000, 741.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="left-arrow-key" mask="url(#mask-2)" fill="#000000" fill-rule="nonzero">
+                    <g transform="translate(14.000000, 15.000000) rotate(-135.000000) translate(-14.000000, -15.000000) translate(-1.000000, 5.000000)" id="Shape">
+                        <polygon points="29.5606602 8.21129449 6.24058381 8.21129449 12.1527158 2.29916246 9.85355339 0 0 9.85355339 9.85355339 19.7071068 12.1527158 17.4079443 6.24058381 11.4958123 29.5606602 11.4958123"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
