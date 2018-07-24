@@ -20,36 +20,34 @@ $(document).ready(function(){
 	})
      
 
-
+	var numb = 5;
 	$("#more-movie").click(function(){
-	$("#new-add-movies").after("<div class=row id=new-add-movies><div class=col-sm-6 text-center><div class=vide-min><div class=vide-img><img src=img/vide.jpg></div><div class=vide-text>"+
+		var number = numb;
+	$("#new-add-movies").after(("<div class=row id=new-add-movies><div class=col-sm-6><div class=vide-min><div class=vide-img><img src=img/vide.jpg></div><div class=vide-text>"+
 			"<a href=https://www.youtube.com/embed/bnyR69Nf0kI id=show{number1} class=cboxElement><img src=img/icons/play.svg></a>"+
 			"<p class=vide-conten>推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>"+
-			"</div></div></div><div class=col-sm-6 text-center><div class=vide-min><div class=vide-img><img src=img/vide.jpg></div>"+
+			"</div></div></div><div class=col-sm-6><div class=vide-min><div class=vide-img><img src=img/vide.jpg></div>"+
 			"<div class=vide-text><a href=https://www.youtube.com/embed/bnyR69Nf0kI id=show{number2} class=cboxElement><img src=img/icons/play.svg>"+
 			"</a><p class=vide-conten>推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>"+
-			 "</div></div></div><div class=col-sm-6 text-center><div class=vide-min><div class=vide-img><img src=img/vide.jpg>"+
+			 "</div></div></div><div class=col-sm-6><div class=vide-min><div class=vide-img><img src=img/vide.jpg>"+
 			 "</div><div class=vide-text><a href=https://www.youtube.com/embed/bnyR69Nf0kI id=show{number3} class=cboxElement>"+
 			 "<img src=img/icons/play.svg></a>"+
 			 "<p class=vide-conten>推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>"+
-			 "</div></div></div><div class=col-sm-6 text-center><div class=vide-min>"+
+			 "</div></div></div><div class=col-sm-6><div class=vide-min>"+
 			 "<div class=vide-img><img src=img/vide.jpg></div><div class=vide-text>"+
 			 "<a href=https://www.youtube.com/embed/bnyR69Nf0kI id=show{number4} class=cboxElement><img src=img/icons/play.svg></a>"+
 			 "<p class=vide-conten>推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>"+
-			 "</div></div></div></div>".replace('{number1}',number).replace('{number2}',number+1).replace("{number3}",number+2).replace("{number4}",number+3));
-    cson(number);
-
-		$("#section3").find("#new-add-movies").removeAttr("id");
-
-
+			 "</div></div></div></div>").replace('{number1}',number).replace('{number2}',number+1).replace("{number3}",number+2).replace("{number4}",number+3));
+    		cson(number);
+    		numb = number+4;
+			$("#section3").find("#new-add-movies").removeAttr("id");
 	})
 
-
 	function cson(i){
-				$("#show"+i).colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$("#show"+(i+1)).colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$("#show"+(i+2)).colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$("#show"+(i+3)).colorbox({iframe:true, innerWidth:640, innerHeight:390});	
-			}
-			cson(1);
+				$("#show"+i).colorbox({iframe:true, innerWidth:"64%", innerHeight:"39%"});
+				$("#show"+(i+1)).colorbox({iframe:true, innerWidth:"64%", innerHeight:"39%"});
+				$("#show"+(i+2)).colorbox({iframe:true, innerWidth:"64%", innerHeight:"39%"});
+				$("#show"+(i+3)).colorbox({iframe:true, innerWidth:"64%", innerHeight:"39%"});	
+	}
+	cson(1);
 })
