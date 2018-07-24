@@ -46,8 +46,8 @@ a:hover{
 }
 
 .apply-max {
-	background: url(../img/bodybg.jpg) no-repeat right center;
-	background-size: cover;
+	background: url(../img/bodybg.jpg) repeat right center;
+	background-size: contain;
 	padding: 20px 0;
 }
 

@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="toTop" content="true">
 		<title></title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -23,7 +24,7 @@
 					<div class="col-sm-4 hidden-xs hidden-sm nav-links">
 						<div class="head-text">
 							<a class="scroll-link button-1" href="#section2">活動訊息</a>
-							<a class="scroll-link button-1" href="#section3">影音專區</a>
+							<a class="scroll-link button-2" href="#section3">影音專區</a>
 						</div>
 						<div class="head-fbyout">
 							<a href="https://www.facebook.com/twnicNEWS/" target="_blank"><img src="img/icons/facebook_logo.svg" /></a>
@@ -81,7 +82,7 @@
 
 					</div>
 				</div>
-				<div class="row hidden-xs">
+				<div class="row hidden-xs"  id="new-add-info">
 					<div class="col-sm-6">
 						<img class="img-top-bor" width="100%" src="img/active-img1.jpg" />
 						<p class="ac-main-text">在網路世界裡，每部裝置彼此連結與傳遞訊息，都必須仰賴各自獨特的網際協定（IP）位址，才不會在資訊流通時彼此混淆，但隨著全球網際網路快速發展，各式裝置數量如雨後春筍般增生，再加上近年來物聯網、車聯網等技術推陳出新，造成IPv4位址面臨用罄危機。</p>
@@ -100,7 +101,7 @@
 				</div>
 				<div class="text-center more">
 					<img src="img/icons/down.svg" />
-					<p>更多活動訊息</p>
+					<p id="more-info">更多活動訊息</p>
 				</div>
 			</div>
 		</div>
@@ -110,7 +111,7 @@
 					<img class="" src="img/icons/arrow_icon-30x30.svg" />
 					<h3 class="">影音專區</h3>
 				</div>
-				<div class="row">
+				<div class="row" id="new-add-movies">
 					<div class="col-sm-6 text-center">
 						<div class="vide-min">
 							<div class="vide-img">
@@ -130,7 +131,7 @@
 								<img src="img/vide.jpg" />
 							</div>
 							<div class="vide-text">
-								<a href="https://www.youtube.com/embed/SMbfZh41m2k" id="show1">
+								<a href="https://www.youtube.com/embed/SMbfZh41m2k" id="show2">
 									<img src="img/icons/play.svg" />
 								</a>
 								<p class="vide-conten">推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>
@@ -143,7 +144,7 @@
 								<img src="img/vide.jpg" />
 							</div>
 							<div class="vide-text">
-								<a href="ttps://www.youtube.com/embed/SMbfZh41m2k" id="show1">
+								<a href="ttps://www.youtube.com/embed/SMbfZh41m2k" id="show3">
 									<img src="img/icons/play.svg" />
 								</a>
 								<p class="vide-conten">推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>
@@ -156,7 +157,7 @@
 								<img src="img/vide.jpg" />
 							</div>
 							<div class="vide-text">
-								<a href="ttps://www.youtube.com/embed/SMbfZh41m2k" id="show1">
+								<a href="ttps://www.youtube.com/embed/SMbfZh41m2k" id="show4">
 									<img src="img/icons/play.svg" />
 								</a>
 								<p class="vide-conten">推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix</p>
@@ -166,7 +167,7 @@
 				</div>
 				<div class="text-center more">
 					<img src="img/icons/down2.svg" />
-					<p style="color: #3686c4;">更多影片</p>
+					<p style="color: #3686c4;" id="more-movie">更多影片</p>
 				</div>
 			</div>
 		</div>
@@ -221,7 +222,7 @@
 						<img src="img/icons/twnic_logo.svg" />
 					</div>
 					<div class="col-xs-12 visible-xs text-center">
-						<h5 class="back-top">BACK TO TOP</h5>
+						<h5 class="back-top" id="toTop">BACK TO TOP</h5>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<p>100臺北市羅斯福路二段9號4樓之2 | 4F-2, No. 9, Roosevelt Rd., Sec. 2, Taipei 100, Taiwan</p>
@@ -235,6 +236,7 @@
 		<script type="text/javascript" src="js/swiper-4.3.3.min.js"></script>
 		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
 		<script type="text/javascript" src="js/jquery.colorbox-zh-TW.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript">
 			var mySwiper = new Swiper('.swiper-container', {
 				direction: 'horizontal',
@@ -249,7 +251,7 @@
 			})
 		</script>
 		<script type="text/javascript">
-			$("#show1").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				var number=4;
 		</script>
 	</body>
 
