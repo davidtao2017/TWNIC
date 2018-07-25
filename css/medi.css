@@ -31,6 +31,9 @@
 	.apply-max .col-sm-6{
 		text-align: center;
 	}
+	body{
+		padding-top: 60px;
+	}
 }
 
 @media screen and (max-width: 991px) {

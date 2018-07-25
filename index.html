@@ -11,28 +11,34 @@
 		<link rel="stylesheet" type="text/css" href="css/medi.css" />
 		<link rel="stylesheet" type="text/css" href="css/swiper-4.3.3.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
-		<link rel="stylesheet" type="text/css" href="css/colorbox.css"/>
+		<link rel="stylesheet" type="text/css" href="css/colorbox.css" />
 	</head>
 
 	<body>
-		<header>
+		<header class="header">
 			<div class="container">
 				<div class="row max-hei">
 					<div class="col-sm-8 col-xs-8">
 						<img class="tw-logo" src="img/icons/twnic_logo.svg" />
 					</div>
-					<div class="col-sm-4 hidden-xs hidden-sm nav-links">
+					<div class="col-sm-4 hidden-xs nav-links">
 						<div class="head-text">
 							<a class="scroll-link button-1" href="#section2">活動訊息</a>
 							<a class="scroll-link button-2" href="#section3">影音專區</a>
 						</div>
-						<div class="head-fbyout">
+						<div class="head-fbyout hidden-sm">
 							<a href="https://www.facebook.com/twnicNEWS/" target="_blank"><img src="img/icons/facebook_logo.svg" /></a>
 							<a href="https://www.youtube.com/channel/UCVY-vutrbDox3VD9Tuu50SQ/videos" target="_blank"><img src="img/icons/youtube_logo.svg" /></a>
 						</div>
 					</div>
-					<div class="col-sm-4 col-xs-4 visible-xs visible-sm text-right">
+					<div class="col-sm-4 col-xs-4 visible-xs text-right">
 						<img class="sanheng" src="img/icons/hengpai.svg" />
+						<div class="mob-tit">
+							<a class="button-1" href="#section2">活動訊息</a>
+							<a class="button-2" href="#section3">影音專區</a>
+							<a href="https://www.facebook.com/twnicNEWS/" target="_blank"><img src="img/icons/facebook_logo.svg" /></a>
+							<a href="https://www.youtube.com/channel/UCVY-vutrbDox3VD9Tuu50SQ/videos" target="_blank"><img src="img/icons/youtube_logo.svg" /></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -48,14 +54,15 @@
 			</div>
 		</div>
 		<div id="section2" class="apply-max">
-		   	<div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-sm-4 col-xs-3">
 						<div class="bor-b"></div>
 					</div>
 					<div class="col-sm-4 col-xs-6 text-center aply-text">
 						<img src="img/add.png" />
-						<a href="https://at.twnic.net.tw/pages/apply.php" target="_blank" title="翻轉域名at.tw"><h3>立即申請</h3></a>
+						<a href="https://at.twnic.net.tw/pages/apply.php" target="_blank" title="翻轉域名at.tw">
+							<h3>立即申請</h3></a>
 					</div>
 					<div class="col-sm-4 col-xs-3">
 						<div class="bor-b"></div>
@@ -82,7 +89,7 @@
 
 					</div>
 				</div>
-				<div class="row hidden-xs"  id="new-add-info">
+				<div class="row hidden-xs" id="new-add-info">
 					<div class="col-sm-6">
 						<img class="img-top-bor" width="100%" src="img/active-img1.jpg" />
 						<p class="ac-main-text">在網路世界裡，每部裝置彼此連結與傳遞訊息，都必須仰賴各自獨特的網際協定（IP）位址，才不會在資訊流通時彼此混淆，但隨著全球網際網路快速發展，各式裝置數量如雨後春筍般增生，再加上近年來物聯網、車聯網等技術推陳出新，造成IPv4位址面臨用罄危機。</p>
@@ -250,5 +257,13 @@
 				}
 			})
 		</script>
+		<script type="text/javascript">
+			$(function() {
+				$(".sanheng").click(function(){
+					$(".mob-tit").toggleClass("in");
+				})
+			});
+		</script>
 	</body>
+
 </html>
