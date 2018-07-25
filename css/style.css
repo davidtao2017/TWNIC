@@ -7,6 +7,9 @@ a:hover{
 	background-color: #fff;
 }
 
+.tw-logo {
+	width: 450px;
+}
 .head-text a {
 	margin-left: 20px;
 	font-size: 18px;
@@ -36,6 +39,7 @@ a:hover{
 .head-fbyout img {
 	margin: 0 10px;
 }
+
 
 .swiper-container {
 	width: 100%;
@@ -95,7 +99,7 @@ a:hover{
 .ac-btn {
 	width: 200px;
 	height: 50px;
-	background-color: #cfcfcf;
+	background-color: #d8d8d8;
 	border: solid 2px #000000;
 	font-size: 18px;
 	font-weight: 600;
@@ -230,7 +234,7 @@ a:hover{
 }
 
 .copy img {
-	width: 300px;
+	width: 350px;
 	margin-bottom: 25px;
 }
 
