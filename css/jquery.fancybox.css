@@ -58,7 +58,7 @@
 
 .fancybox-error {
 	color: #444;
-	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 14px/20px "Noto Sans TC",sans-serif,"Microsoft YaHei","PingFang sc","Lantinghei TC","Microsoft JhengHei","Optima","Segoe","Segoe UI","Candara","Calibri",Helvetica,Arial;
 	margin: 0;
 	padding: 15px;
 	white-space: nowrap;
@@ -193,7 +193,7 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 13px/20px "Noto Sans TC",sans-serif,"Microsoft YaHei","PingFang sc","Lantinghei TC","Microsoft JhengHei","Optima","Segoe","Segoe UI","Candara","Calibri",Helvetica,Arial;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
