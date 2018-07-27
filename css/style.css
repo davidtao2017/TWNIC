@@ -292,7 +292,12 @@ a:hover{
 body{
 	padding-top: 100px;
 }
-
+#cboxWrapper{
+	position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%);
+}
 
 
 @-webkit-keyframes hvr-back-pulse {
