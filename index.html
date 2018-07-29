@@ -77,7 +77,7 @@
 				</div>
 				<script id="new-add-info" type="text/template">
 					<div class="row">
-						{{#each info}}
+						{{#each this}}
 						<div class="col-sm-6">
 							<img class="img-top-bor" width="100%" src="{{info-img}}" />
 							<p class="ac-main-text">{{info-txt}}</p>
@@ -105,7 +105,7 @@
 				</div>
 				<script id="new-add-movies" type="text/template">
 					<div class="row">
-						{{#each movies}}
+						{{#each this}}
 						<div class="col-sm-6 text-center">
 							<div class="vide-min">
 								<div class="vide-img">
@@ -113,7 +113,7 @@
 								</div>
 								<div class="vide-text">
 									<h4 class="vide-title col-lg-4">{{movie-title}}</h4>
-									<a href="{{movie-href}}" id="{{movie-id}}">
+									<a class="show-mv" href="{{movie-href}}">
 										<img src="img/icons/play.svg" />
 									</a>
 									<p class="vide-conten">{{movie-txt}}</p>

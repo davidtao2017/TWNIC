@@ -137,10 +137,15 @@ a:hover{
 	position: relative;
 	max-width: 547px;
 	max-height: 355px;
-	cursor: pointer;
 	margin: 0 auto 30px auto;
 }
-
+.show-mv{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 .vide-text {
 	position: absolute;
 	top: 0;
