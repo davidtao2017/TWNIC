@@ -54,7 +54,9 @@ a:hover{
 	background-size: contain;
 	padding: 20px 0;
 }
-
+.boldtitle{
+	font-weight: 900 !important;
+}
 .aply-text img,
 .active-text img {
 	margin-bottom: 10px;
