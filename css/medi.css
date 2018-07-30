@@ -34,6 +34,9 @@
 	body{
 		padding-top: 60px;
 	}
+	.filmPopholder{
+    	height: 30%!important;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -43,5 +46,9 @@
 	}
 	.copy {
 		text-align: center;
+	}
+	.filmPopholder{
+		width: 95%;
+    	height: 40%;
 	}
 }

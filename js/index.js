@@ -93,4 +93,8 @@ $(document).ready(function() {
 			innerHeight: "39%"
 		});
 	})
+	
+	$("#filmPop").click(function(){
+		$(this).remove();
+	})
 })

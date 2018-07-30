@@ -303,6 +303,46 @@ body{
     left: 50% !important;
     transform: translate(-50%,-50%);
 }
+.filmPop{
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1043;
+    position: fixed;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.filmPopContainer{
+	text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.filmPopholder{
+	width: 100%;
+    max-width: 900px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1045;
+    background: #ccc;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    
+}
+
+
 
 
 @-webkit-keyframes hvr-back-pulse {
