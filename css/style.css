@@ -55,7 +55,7 @@ a:hover{
 	padding: 20px 0;
 }
 .boldtitle{
-	font-weight: 900 !important;
+	font-weight: 800 !important;
 }
 .aply-text img,
 .active-text img {
@@ -78,9 +78,14 @@ a:hover{
 	font-weight: 600;
 }
 
-.col-sm-6{
-	min-height: 610px;
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .ac-main-text {
 	font-size: 17px;
 	margin-top: 12px;

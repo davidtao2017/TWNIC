@@ -106,16 +106,14 @@
 				<script id="new-add-movies" type="text/template">
 					<div class="row">
 						{{#each this}}
-						<div class="col-md-6 text-center">
+						<div class="col-sm-6 text-center">
 							<div class="vide-min">
 								<div class="vide-img">
 									<img src="{{movie-img}}" />
 								</div>
-								<div class="vide-text">
-									<h4 class="vide-title col-xl-4">{{movie-title}}</h4>
-									<a class="show-mv" href="{{movie-href}}">
-										<img src="img/icons/play.svg" />
-									</a>
+								<div class={{Class-vide-text}}>
+									<h4 class=" col-xl-4 vide-title">{{movie-title}}</h4>
+									{{{play-icon}}}
 									<p class="vide-conten">{{movie-txt}}</p>
 								</div>
 							</div>
@@ -136,7 +134,7 @@
 						<div class="col-sm-4 text-right">
 							<p>訂閱電子報,請輸入email：</p>
 						</div>
-						<div class="col-md-6 text-center">
+						<div class="col-sm-6 text-center">
 							<input name="email" type="text" class="inputbox" placeholder="訂閱 EMAIL" size="25" />
 						</div>
 						<div class="col-sm-2">

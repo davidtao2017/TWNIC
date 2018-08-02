@@ -4,72 +4,92 @@
 			"movie-img": "img/17a.png",
 			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "lifechem.tw",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/bnyR69Nf0kI'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/17b.png",
 			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "taiwanjpice.com.tw",
-			"movie-href": "https://www.youtube.com/embed/EiZ7c9SHs74"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/EiZ7c9SHs74'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/17c.png",
 			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "ucarer.tw",
-			"movie-href": "https://www.youtube.com/embed/SMbfZh41m2k"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/SMbfZh41m2k'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/16a.png",
 			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "doga.com.tw",
-			"movie-href": "https://www.youtube.com/embed/M5iyU_4ok7I"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/M5iyU_4ok7I'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/16b.png",
 			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "redbrick-pudding.com.tw",
-			"movie-href": "https://www.youtube.com/embed/5H2FwG_Giaw"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/5H2FwG_Giaw'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/16c.png",
 			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "5945.com.tw",
-			"movie-href": "https://www.youtube.com/embed/c8WizITA_EE"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/c8WizITA_EE'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/15a.png",
 			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "museum50.com.tw",
-			"movie-href": "https://www.youtube.com/embed/f7FZaMfJfis"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/f7FZaMfJfis'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/15b.png",
 			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "funcamp.com.tw",
-			"movie-href": "https://www.youtube.com/embed/2wMzxiQGfys"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/2wMzxiQGfys'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/15c.png",
 			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "yamol.tw",
-			"movie-href": "https://www.youtube.com/embed/fV5TI68bw4c"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/fV5TI68bw4c'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/14a.png",
 			"movie-title": "「2014 TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "dawoko.com.tw",
-			"movie-href": "https://www.youtube.com/embed/XtO9CjM7QQQ"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/XtO9CjM7QQQ'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/14b.png",
 			"movie-title": "「2014 TWNIC網路創業故事徵選活動」微電影",
 			"movie-txt": "before-sunset.com.tw",
-			"movie-href": "https://www.youtube.com/embed/HoW3kej68Pw"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/HoW3kej68Pw'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/13a.png",
 			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
 			"movie-txt": "voicetube.tw",
-			"movie-href": "https://www.youtube.com/embed/mei0q4f4Fm0"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/mei0q4f4Fm0'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/13b.png",
 			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
 			"movie-txt": "icook.tw",
-			"movie-href": "https://www.youtube.com/embed/6guFHLf9s0c"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/6guFHLf9s0c'><img src='img/icons/play.svg' /></a>"
 		}, {
 			"movie-img": "img/13c.png",
 			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
 			"movie-txt": "冷凍空調.tw",
-			"movie-href": "https://www.youtube.com/embed/rSG5X7_vKFQ"
+			"Class-vide-text":"vide-text",
+			"play-icon":"<a class='show-mv' href='https://www.youtube.com/embed/rSG5X7_vKFQ'><img src='img/icons/play.svg' /></a>"
+		},
+		{
+			
+		},
+		{
+			
 		}
 	]
 }
