@@ -78,6 +78,9 @@ a:hover{
 	font-weight: 600;
 }
 
+.col-sm-6{
+	min-height: 610px;
+}
 .ac-main-text {
 	font-size: 17px;
 	margin-top: 12px;
