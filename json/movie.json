@@ -1,105 +1,75 @@
 {
 	"movies": [
 		{
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix1",
+			"movie-img": "img/17a.png",
+			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "lifechem.tw",
 			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix2",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/17b.png",
+			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "taiwanjpice.com.tw",
+			"movie-href": "https://www.youtube.com/embed/EiZ7c9SHs74"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix3",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/17c.png",
+			"movie-title": "「2017TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "ucarer.tw",
+			"movie-href": "https://www.youtube.com/embed/SMbfZh41m2k"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix4",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/16a.png",
+			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "doga.com.tw",
+			"movie-href": "https://www.youtube.com/embed/M5iyU_4ok7I"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix5",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/16b.png",
+			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "redbrick-pudding.com.tw",
+			"movie-href": "https://www.youtube.com/embed/5H2FwG_Giaw"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix6",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/16c.png",
+			"movie-title": "「2016TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "5945.com.tw",
+			"movie-href": "https://www.youtube.com/embed/c8WizITA_EE"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix7",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/15a.png",
+			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "museum50.com.tw",
+			"movie-href": "https://www.youtube.com/embed/f7FZaMfJfis"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix8",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/15b.png",
+			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "funcamp.com.tw",
+			"movie-href": "https://www.youtube.com/embed/2wMzxiQGfys"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix9",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/15c.png",
+			"movie-title": "「2015TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "yamol.tw",
+			"movie-href": "https://www.youtube.com/embed/fV5TI68bw4c"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix10",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/14a.png",
+			"movie-title": "「2014 TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "dawoko.com.tw",
+			"movie-href": "https://www.youtube.com/embed/XtO9CjM7QQQ"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix11",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/14b.png",
+			"movie-title": "「2014 TWNIC網路創業故事徵選活動」微電影",
+			"movie-txt": "before-sunset.com.tw",
+			"movie-href": "https://www.youtube.com/embed/HoW3kej68Pw"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix12",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/13a.png",
+			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
+			"movie-txt": "voicetube.tw",
+			"movie-href": "https://www.youtube.com/embed/mei0q4f4Fm0"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix13",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/13b.png",
+			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
+			"movie-txt": "icook.tw",
+			"movie-href": "https://www.youtube.com/embed/6guFHLf9s0c"
 		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix14",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix15",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix16",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix17",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix18",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix19",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
-		}, {
-			"movie-img": "img/vide.jpg",
-			"movie-title": "[[域名新時代]]",
-			"movie-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix20",
-			"movie-href": "https://www.youtube.com/embed/bnyR69Nf0kI"
+			"movie-img": "img/13c.png",
+			"movie-title": "「2013 TWNIC網路創業故事競賽」微電影",
+			"movie-txt": "冷凍空調.tw",
+			"movie-href": "https://www.youtube.com/embed/rSG5X7_vKFQ"
 		}
 	]
 }

@@ -1,102 +1,26 @@
 {
 	"info": [
 		{
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix1",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix2",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix3",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix4",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
+			"info-img": "img/ev4.png",
+			"info-txt": "泛用型網域名稱銅板價專案8月1日至9月30日止期間，結合受理註冊機構共同推出前所未見的超優惠「泛用型網域名稱銅板價專案」，專案期間註冊泛用型網域名稱英文.tw或中文.tw，每個只要新台幣50元/一年（原價800元/年）。",
+			"info-href": "<a href='https://blog.twnic.net.tw/2018/07/31/1170/' class='ac-btn hvr-back-pulse'>了解更多</a>"
+			
+		},
+        {
+            "info-img": "img/ev3.png",
+            "info-txt": "at.tw 翻轉域名實驗計畫【2018年5月28日(一)下午2:00】服務正式上線，全面開放免費試用。長到記不住的網址，TWNIC幫您翻轉。",
+            "info-href": "<a href='https://at.twnic.net.tw/?utm_source=52168&utm_medium=web&utm_campaign=2018_mv' class='ac-btn hvr-back-pulse'>了解更多</a>"
+        },
+		{
+			"info-img": "img/ev1.png",
+			"info-txt": "域名註冊新選擇–「日文語.tw」全新開放擁有最多可註冊網域名稱組合，歡迎註冊使用，取得最具特色的網域名稱！",
+			"info-href": "<a href='http://xn--p8jh5i5d.tw/?utm_source=52168&utm_medium=web&utm_campaign=2018_mv' class='ac-btn hvr-back-pulse'>了解更多</a>"
+		},
+        {
+			"info-img": "img/ev2.jpg",
+			"info-txt": "「域名飄、愛心揚、根留台灣」慈善捐款活動自2018年9月1日起至10月31日止，提撥固定比例之域名註冊費作為公益用途，幫助弱勢族群或偏遠地區，貢獻棉薄之力。",
+			"info-href": "<a href='http://lovetw.tw/?utm_source=52168&utm_medium=web&utm_campaign=2018_mv' class='ac-btn hvr-back-pulse'>了解更多</a>"
 		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix5",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix6",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix7",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix8",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix9",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix10",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix11",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix12",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix13",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix14",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix15",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix16",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix17",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix18",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix19",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
-		, {
-			"info-img": "img/active-img1.jpg",
-			"info-txt": "推廣活動消息頁面，各活動均以欄位形式呈現。顯示出各活動名稱、代表圖與簡短文字敘述，使用者點擊後連結至該活動網站。代表圖尺寸固定尺寸為547 x 355 pix20",
-			"info-href": "https://seminar.twnic.net.tw/2018/index.html"
-		}
+		
 	]
 }

@@ -80,8 +80,8 @@ a:hover{
 
 .ac-main-text {
 	font-size: 17px;
-	margin-top: 10px;
-	font-weight: 400;
+	margin-top: 12px;
+	font-weight: 300;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -97,7 +97,6 @@ a:hover{
 }
 
 .img-top-bor {
-	border-top: 5px solid #3686c4;
 	max-width: 547px;
 	max-height: 355px;
 }
@@ -110,7 +109,7 @@ a:hover{
 	font-size: 18px;
 	font-weight: 600;
 	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 	line-height: 45px;
 }
 
