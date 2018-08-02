@@ -80,7 +80,7 @@
 						{{#each this}}
 						<div class="col-sm-6">
 							<img class="img-top-bor" width="100%" src="{{info-img}}" />
-							<p class="ac-main-text">{{info-txt}}</p>
+							<p class="ac-main-text" title="{{info-txt}}">{{info-txt}}</p>
 							<div class="text-center">
 								{{{info-href}}}
 							</div>
@@ -131,13 +131,13 @@
 			<form action="" method="post" name="form1" id="form">
 				<div class="container-fluid subs-text">
 					<div class="row xzgd">
-						<div class="col-sm-4 text-right">
+						<div class="col-md-4 text-right">
 							<p>訂閱電子報,請輸入email：</p>
 						</div>
-						<div class="col-sm-6 text-center">
+						<div class="col-md-6 text-center">
 							<input name="email" type="text" class="inputbox" placeholder="訂閱 EMAIL" size="25" />
 						</div>
-						<div class="col-sm-2">
+						<div class="col-md-2">
 							<button onclick="javascript:window.open('http://www.myhome.net.tw/email.cgi?S=S&amp;email=' + document.form1.email.value,'popupnav','width=340,height=220,resizable=1,scrollbars=auto')">訂閱</button>
 
 						</div>

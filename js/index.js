@@ -48,7 +48,7 @@ $("#more-movie").click(function() {
 				var html = template(res);
 				$("#new-movie").append(html);
 				moviepage += 1;
-			} else {
+			}else {
 				$("#more-movie").text("已經沒有了哦!")
 			}
 		}

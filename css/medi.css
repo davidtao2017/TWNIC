@@ -1,3 +1,21 @@
+
+@media screen and (max-width: 991px) {
+	.vide-conten {
+		font-size: 14px;
+		bottom: 10px;
+	}
+	.copy {
+		text-align: center;
+	}
+	.filmPopholder{
+		width: 95%;
+    	height: 40%;
+	}
+	.subs-text .col-md-4,.subs-text .col-md-2{
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.max-hei {
 		height: 60px;
@@ -5,6 +23,7 @@
 	}
 	.tw-logo {
 		width: 200px;
+		height: 25.84px;
 	}
 	.aply-text h3,
 	.active-text h3 {
@@ -39,16 +58,21 @@
 	}
 }
 
-@media screen and (max-width: 991px) {
-	.vide-conten {
-		font-size: 14px;
-		bottom: 10px;
+@media only screen and (min-width: 767px) {
+	.ac-main-text{
+		height: 0;
+		padding-bottom: 38%;
 	}
-	.copy {
-		text-align: center;
+}
+@media only screen and (min-width: 991px) {
+	.ac-main-text{
+		height: 0;
+		padding-bottom: 20%;
 	}
-	.filmPopholder{
-		width: 95%;
-    	height: 40%;
+}
+@media only screen and (min-width: 1199px) {
+	.ac-main-text{
+		height: 0;
+		padding-bottom: 15%;
 	}
 }
