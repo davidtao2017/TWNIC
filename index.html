@@ -1,408 +1,261 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/alldeal.css">
-    <link rel="stylesheet" href="swiper/swiper-4.3.3.min.css">
+    <title>107年度財政部優質酒類認證制度網路宣導</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        if ($(window).width()>768) {
+            wow = new WOW({offset:100});
+        }else {
+            wow = new WOW({offset:250});
+        }
+        wow.init();
+    </script>
+
 </head>
 <body>
-<!--top-->
-<div class="top">
-    <span class="top-button choose">發票交易</span><span class="top-button">中獎發票</span>
-    <a href="#" class="top-right">
-        <img src="images/exclamation.svg" alt="">
-        說明
-    </a>
-</div>
-<!--body-->
-<div class="main">
-    <div class="swiper-container pr" id="content">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="moon">
-                    <div class="moon-title">2018 年 7月- 8月</div>
+    <header class="header">
+        <div class="wrapper pr">
+            <a href="#" class="header-img">
+                <img src="images/logo.png" alt="">
+            </a>
+            <nav class="nav">
+                <span class="nav-text"><a class="top-link" href="#prize">優質大獎</a></span><span
+                    class="nav-text"><a class="top-link" href="#game">闖關大挑戰</a></span><span
+                    class="nav-text"><a class="top-link" href="#answer">我要拿大獎</a></span><span
+                    class="nav-text"><a class="top-link" href="#attention">活動須知</a></span><span
+                    class="nav-fb"><a href="#"><img src="images/facebook.svg" alt=""></a></span><span
+                    class="nav-yt"><a href="#"><img src="images/youtube.svg" alt=""></a></span>
+            </nav>
+            <img class="menu-button open" src="images/menu.svg" alt="">
+            <img class="menu-button close" src="images/close.svg" alt="">
+        </div>
+    </header>
+    <div class="banner">
+        <img src="images/banner.png" alt="">
+    </div>
+	<div class="story">
+		<div class="wrapper" id="story">
+			<div class="content">
+			<div class="story-title">
+		      <img src="images/story.svg" alt="">
+			</div>
+			<p class="story-text">
+			  <i></i>
+			  繼榮獲2017布魯塞爾烈酒競賽三金一銀肯定後，今年轉戰2018德國國際烈酒競賽（2018 Meiningers International Spirits Award, ISW)，榮獲優良成績！
+			  德國烈酒競賽為酒品界國際級競賽，歷史悠久，今年有33個國家900項酒品參賽角逐桂冠，德國、義大利、法國、英國等製酒大國環伺，競爭相當激烈，經由60位國際級酒類權威裁判逐一嚴格品評審查，能贏得二金二銀優異成績，證明我國製酒技術及品質已躍升世界級水準！
+			  不只臺中市霧峰區農會「初霧純米吟釀」（金牌獎）、金車股份有限公司員山廠「頂極指揮單一麥芽威士忌」（金牌獎）、臺灣菸酒股份有限公司南投酒廠「單一麥芽威士忌（波本花香）」（銀牌獎）、金車股份有限公司員山廠「噶瑪蘭山川首席單一麥芽威士忌」（銀牌獎）出國比賽得大獎，更有多家廠商的酒品亦通過優質酒類認證標誌的審核！(如：台灣菸酒股份有限公司竹南啤酒廠、台中酒廠、南投酒廠、嘉義酒廠、隆田酒廠、善化啤酒廠、宜蘭酒廠；苗栗縣大湖地區農會；台中市霧峰區農會酒莊；路葡萄酒莊；南投縣信義鄉農會；福祿壽國際酒品股份有限公司；金車股份有限公司員山廠；中福酒廠股份有限公司；金門酒廠實業股份有限公司)及其他推薦酒廠(如：台灣菸酒股份有限公司桃園酒廠、埔里酒廠；樹生休閒酒莊；戀戀葡萄園酒莊；馬祖酒廠實業股份有限公司)
+			  讓民眾能安心選購及參觀！</p>
+			</div>
+        </div>
+		</div>
+    <div class="prize">
+        <div class="wrapper pr clear-fix" id="prize">
+            <img class="top-img" src="images/bigprize.svg" alt="">
+            <img class="farmer" src="images/farmer.png" alt="">
+            <p class="prize-text">
+                <i></i>
+                閱讀完台灣酒品參賽國際級比賽小短文，即可得知我們連續兩年雙雙榮獲獎項揚名國際，讓世界看見台灣！通過優質酒類認證之酒品，讓大家可安心使用！
+            </p>
+            <div class="prize-box clear-fix">
+                <div class="wow bounceInLeft">
+                    <img src="images/nt300.png" alt="">
+                    <div class="name">便利商店電子購物金</div>
+                    <div class="detail">市價NT$300<span>50名</span></div>
+                </div><div class="wow bounceInRight">
+                <img src="images/nt200.png" alt="">
+                <div class="name">便利商店電子購物金</div>
+                <div class="detail">市價NT$200<span>80名</span></div>
+            </div><div class="wow bounceInLeft">
+                <img src="images/nt100.png" alt="">
+                <div class="name">便利商店電子購物金</div>
+                <div class="detail">市價NT$100<span>20名</span></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="game">
+        <div class="wrapper pr clear-fix" id="game">
+            <img class="top-img" src="images/bigchallenge.svg" alt="">
+           <div class="game-center">
+                <div class="game-img">
+                    <img class="wow bounceInLeft" src="images/game.png" alt="">
                 </div>
-                <div class="content">
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中1000萬</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$300</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">未中獎</div>
-                            <div>Happygo</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$30,332</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">自行兌獎</div>
-                            <div>信用卡</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$100,000,000</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">退貨</div>
-                            <div>已退貨</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中200元</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">無實體2000元</div>
-                            <div>手機條碼</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$500</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
+                <div class="description wow bounceInRight">
+                    <div>
+                        <img src="images/instructions.svg" alt="">
+                        <p>讓我們來進入這個迷宮，看最後會發現什麼厲害的事情吧！</p>
+                           <p>大家走到迷宮出口後將會知道，本次台灣參與2018德國國際烈酒競賽的獲獎成績為：</p>
+                    </div>
+                </div>
+                <div class="answer-img">
+                    <img class="wow bounceInRight" src="images/answer.png">
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="moon">
-                    <div class="moon-title">2018 年 9月- 10月</div>
-                </div>
-                <div class="content">
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中1000萬</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$300</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">未中獎</div>
-                            <div>Happygo</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$30,332</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">自行兌獎</div>
-                            <div>信用卡</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$100,000,000</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">退貨</div>
-                            <div>已退貨</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中200元</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">無實體2000元</div>
-                            <div>手機條碼</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$500</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                </div>
+            <div class="encyclopedia wow bounceInUp" data-wow-offset="100">
+                <img src="images/encyclopedia.svg" alt="">
+                <p>想知道上述有優質酒類認證過的酒廠主力商品是什麼嗎？</p>
+                <a href="#">點我了解更多!</a>
             </div>
-            <div class="swiper-slide">
-                <div class="moon">
-                    <div class="moon-title">2018 年 9月- 10月</div>
+        </div>
+    </div>
+    <div class="answer">
+        <div class="wrapper pr" id="answer">
+            <img class="top-img" src="images/takeprize.svg" alt="">
+            <form id="form">
+                <div>
+                    <div><label for="name">姓名：</label><div class="input-box"><input type="text" id="name" name="name"></div></div>
+                    <div><label for="phone">手機：</label><div class="input-box"><input type="text" id="phone" name="phone"></div></div>
+                    <div><label for="email">電子信箱：</label><div class="input-box"><input type="text" id="email" name="email"></div></div>
+                    <div><label for="address">地址：</label><div class="input-box"><input type="text" id="address" name="address"></div></div>
                 </div>
-                <div class="content">
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中1000萬</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$300</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">未中獎</div>
-                            <div>Happygo</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$30,332</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">自行兌獎</div>
-                            <div>信用卡</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$100,000,000</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">退貨</div>
-                            <div>已退貨</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中200元</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">無實體2000元</div>
-                            <div>手機條碼</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$500</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
+                <div>
+                    <div><label for="answer1">答按選項：</label><div class="input-box"><select name="answer1" id="answer1">
+                            <option value="三金一銀">三金一銀</option>
+                            <option value="二金二銀">二金二銀</option>
+                            <option value="一金三銀">一金三銀</option>
+                            <option value="三金一銅">三金一銅</option>
+                        </select></div></div>
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="moon">
-                    <div class="moon-title">2018 年 9月- 10月</div>
+                <div>
+                    <div>
+                        <label class="textarea-box" for="message">我有話要說：</label><div class="input-box"><textarea name="message" id="message"></textarea></div>
+                    </div>
+                    <div class="button-box">
+                        <button class="reset" type="reset">取消重填</button>
+                        <button class="send" type="button" id="send">送出</button>
+                    </div>
+                    <div id="tips"></div>
                 </div>
-                <div class="content">
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中1000萬</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$300</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">未中獎</div>
-                            <div>Happygo</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$30,332</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">自行兌獎</div>
-                            <div>信用卡</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$100,000,000</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box gray">退貨</div>
-                            <div>已退貨</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">中200元</div>
-                            <div>全家會員載具</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$50</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
-                    <a href="#" class="content-box pr">
-                        <div class="content-box-left">
-                            <div class="status-box red">無實體2000元</div>
-                            <div>手機條碼</div>
-                        </div>
-                        <div class="content-box-middle">
-                            <div>SN87445989</div>
-                        </div>
-                        <div class="content-box-right">
-                            <div class="price">$500</div>
-                            <div class="date">2018/3/21</div>
-                        </div>
-                    </a>
+            </form>
+        </div>
+    </div>
+    <div class="attention">
+        <div class="wrapper" id="attention">
+            <div class="content">
+                <div class="attention-img">
+                    <img src="images/attention.svg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="attention-title">
+                        <span>抽獎說明:</span>
+                    </div>
+                    <div class="text-box">
+                        <p>1. 請於活動時間內進行活動參與，需閱讀完全文可從中找到答案，進行答案選填，答對者即可進行抽獎。</p>
+                        <p>2. 抽獎資料應填妥正確，獎品寄發將以網站資料為主，若提供資料有誤導致禮品無法送達，恕不補發！</p>
+                        <p>3. 得獎名單將於2018/12/08公布於此活動網站下方及「財政部國庫署.財政我最庫」粉絲團。</p>
+                        <p>4. 中獎人得留意得獎公告時間(2018/12/08-2018/12/10)
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="attention-title">
+                        <span>兌獎流程:</span>
+                    </div>
+                    <div class="text-box ac">
+                        <p>中獎名單公布(2018/12/08-2018/12/10)</p>
+                        <p>↓</p>
+                        <p>主辦單位寄發便利商店禮金兌換簡訊(2018/12/12前寄發)</p>
+                        <p>↓</p>
+                        <p>得獎者可攜帶兌換簡訊之電子序號至任一門市進行兌換使用</p>
+                        <p>↓</p>
+                        <p>(有效期限：2019/03/31)</p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="attention-title">
+                        <span>注意事項:</span>
+                    </div>
+                    <div class="text-box attention-detail">
+                        <p>1. 中獎者應遵守各獎項兌換辦法即可兌換；倘未依約定者，視為放棄中獎權利。</p>
+                        <p>2. 活動參加者須保證所有填寫或提出之資料均為真實且正確，並未冒用或盜用他人資料，如有不實或不正確資訊，主辦單位將取消中獎資格，並就其損害主辦單位或任何第三人權益，保留一切民、刑事追訴之責。</p>
+                        <p>3. 主辦單位僅使用參加者所提供之個人資料於此次活動用途，且遵守【個人資料保護法】規定，以維護參加者權益。中獎人同意中獎相關個人資訊由主辦單位於活動範圍內進行蒐集、電腦處理及利用，但不做其他用途，中獎人並授權主辦單位得公開公布姓名(例：王○明，0937-XXX-541)。</p>
+                        <p>4. 主辦單位就活動參加者之資格，保有審查之權利，若以惡意之電腦程式或其他明顯違反活動公平性之方式，或經查核有不符合活動規定之參加資格者，一經主辦單位發現或經第三人檢舉將取消參加、得獎資格。</p>
+                        <p>5. 敬請確認個人資料填寫正確性，倘因得獎人資料未填寫清楚、填寫錯誤/不實、門號未開機使用，導致電子禮券無法正確寄發者，視同放棄獲獎資格。</p>
+                        <p>6. 本活動如任何電腦、網路、電話等其他不可歸責於主辦單位之原因，導致未能完整填寫資料，則主辦單位無須為此負任何責任。</p>
+                        <p>7. 主辦單位保留修改活動內容與獎項細節之權利，無須事前另行告知，並有權對本活動所有事宜作出調整或裁決。如本活動因不可抗力之原因無法執行時，主辦單位有權決定取消、終止、修改或暫停本活動，如有任何未盡事宜均應受中華民國法律約束。本次活動所留之個人資料，主辦單位僅為此活動一次性使用，活動結束後將不保留任何參加者之完整資料。</p>
+                        <p>8. 於參加本活動之同時，即同意接受本活動所有內容及細則之規範，如有違反本活動注意事項之行為，活動小組將取消其參加或中獎資格，並對於任何破壞活動之行為保留法律追訴權。</p>
+                        <p>9. 得獎人請於電子禮券兌換期限前兌換完畢，倘未於電子禮券兌換期限前完成兌換，不得向主辦單位為任何主張或請求</p>
+                        <p>10. 得獎人應自行妥善保管通知電子禮券兌換之簡訊，倘因不可歸責於主辦單位之事由（如：得獎人自行刪除通知簡訊），致得獎人無法兌換電子禮券時，得獎人不得再要求補寄送。</p>
+                    </div>
+                </div>
+                <div class="text-box">
+                    主辦單位：財政部國庫署
                 </div>
             </div>
         </div>
-        <div class="arrow">
-            <span class="fl prev"><img src="images/left.svg" alt=""></span>
-            <span class="fr next"><img src="images/right.svg" alt=""></span>
+    </div>
+    <footer class="footer">
+        <div class="wrapper pr">
+            <span>禁止酒駕</span><img src="images/sign.png" alt=""><span>未滿十八歲禁止飲酒</span>
         </div>
-        <div class="moon-background"></div>
-    </div>
-</div>
-<!--底部跑馬燈-->
-<div class="scroll-bar">
-    <div class="scroll-bar-img">
-        <img class="speaker" src="images/speaker.svg" alt="">
-    </div>
-    <div class="swiper-container" id="scrollBar">
-        <div class="swiper-wrapper">
-            <!--swiper-no-swiping 樣式靜止滑動-->
-            <div class="swiper-slide scroll-content swiper-no-swiping"><a href="#">1000 元存購物金，加贈 10,000 點1000 元存購物金，加贈 10,000 點</a></div>
-            <div class="swiper-slide scroll-content swiper-no-swiping"><a href="#">1000 元存購物金，加贈 10,000 點</a></div>
-            <div class="swiper-slide scroll-content swiper-no-swiping"><a href="#">1000 元存購物金，加贈 10,000 點</a></div>
-        </div>
-    </div>
-    <div class="close fr">
-        <img src="images/group-3.svg" alt="">
-    </div>
-    <script>
-        document.querySelector('.close').onclick = function () {
-            document.querySelector('.scroll-bar').style.display = 'none';
-        }
-    </script>
-</div>
-<!--buttom-->
-<div class="placeholder"></div>
-<script src="swiper/swiper-4.3.3.min.js"></script>
+    </footer>
+</body>
 <script>
-    new Swiper ('#content', {
-        direction: 'horizontal',
-        navigation: {
-            nextEl: '.arrow .next',
-            prevEl: '.arrow .prev',
-        },
+    $("a.top-link").click(function() {
+        let aa;
+        if ($(window).width()>940) {
+            aa=102;
+        }else {
+            aa=82;
+        }
+        $("html, body").animate({
+            scrollTop: (($($(this).attr("href")).offset().top)-aa) + "px"
+        }, {
+            duration: 500,
+            easing: "swing"
+        });
+        $('.nav').removeClass('down');
+        $('.open').toggle(500);
+        $('.close').toggle(500);
+        return false;
+    });
+    $('.menu-button').on('click',function () {
+        const nav=$('.nav');
+        if(nav.hasClass('down')){
+            nav.removeClass('down');
+        }else {
+            nav.addClass('down');
+        }
+        $('.open').toggle(500);
+        $('.close').toggle(500);
+    });
+    $('#send').on('click',function () {
+        $('#tips').text('');
+        const form = $('#form');
+        const num= /[0-9]+/;
+        const email=/^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
+        if(form.find('#name').val()===''){
+            $('#tips').text('請輸入姓名');
+            return false;
+        }
+        if(form.find('#phone').val()===''){
+            $('#tips').text('請輸入手機號碼');
+            return false;
+        }
+        if(!num.test(form.find('#phone').val())){
+            $('#tips').text('請輸入正確的手機號碼');
+            return false;
+        }
+        if(form.find('#email').val()===''){
+            $('#tips').text('請輸入郵箱地址');
+            return false;
+        }
+        if(!email.test(form.find('#email').val())){
+            $('#tips').text('請輸入正確的郵箱地址');
+            return false;
+        }
+        if(form.find('#address').val()===''){
+            $('#tips').text('請輸入地址');
+            return false;
+        }
+        $.post('',form.serialize(),function (res) {
+
+        })
     })
 </script>
-<script src="script/scroll.js"></script>
-</body>
 </html>

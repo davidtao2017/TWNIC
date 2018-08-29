@@ -1,0 +1,865 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button, textarea, select {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    margin: 0;
+}
+
+/*禁止手动修改大小*/
+textarea {
+    resize: none;
+}
+
+/*去掉图片底部默认空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*合并外连线*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-family: "Noto Sans CJK SC", "Noto Sans TC", sans-serif, "Microsoft YaHei", "PingFang sc", "Lantinghei TC", "Microsoft JhengHei", "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", Arial;
+    font-size: 16px;
+    color: #666;
+    background: #eeeeee;
+    overflow-x: hidden;
+}
+
+/*清除浮动*/
+.clear-fix:before, .clear-fix:after {
+    content: "";
+    display: table;
+}
+
+.clear-fix:after {
+    clear: both;
+}
+
+.clear-fix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*公共类*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.hide {
+    display: none !important;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdeecf;
+    height: 80px;
+    line-height: 80px;
+    z-index: 999999;
+}
+
+.header .wrapper {
+    background-color: #fdeecf;
+}
+
+.header .header-img {
+    margin-left: 150px;
+}
+
+.header .header-img img {
+    width: 200px;
+    height: auto;
+}
+
+.header .nav {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header .nav .nav-text {
+    padding: 7px 14px;
+    margin-right: 6px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.header .nav .nav-text a {
+    color: #8b572a;
+}
+
+.header .nav .nav-text:hover {
+    background-color: #8b572a;
+}
+
+.header .nav .nav-text:hover a {
+    color: #fff;
+}
+
+.header .nav .nav-fb {
+    margin: 0 20px 0 37px;
+}
+
+.header .menu-button {
+    display: none;
+    position: absolute;
+    top: 14px;
+    right: 21px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 80px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.story {
+	background-color: #FFD76A;
+    padding: 60px 0 75px;
+	
+}
+
+.story-title{
+	padding-bottom: 40px;	
+}
+
+.story .content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.story-text {
+	 color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.story .story-text i{
+	display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 9px;
+    height: 70px;
+    background-color: #4a4a4a;
+}
+
+.top-img {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    margin-left: -111px;
+}
+
+.prize {
+    height: 1222px;
+    margin-top: 24px;
+    background: url("../images/bigprize_bg.jpg") center fixed;
+    background-size: 1440px;
+}
+
+.prize .farmer {
+    position: absolute;
+    top: 60px;
+    left: 170px;
+}
+
+.prize .prize-text,
+.game .game-text {
+    position: relative;
+    margin: 140px auto 0;
+    width: 560px;
+    color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.prize .prize-text i,
+.game .game-text i {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 9px;
+    height: 70px;
+    background-color: #4a4a4a;
+}
+
+.prize .prize-box {
+    width: 926px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.prize .prize-box > div {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.prize .prize-box > div:nth-child(2n-1) {
+    margin-right: 76px;
+}
+
+.prize .prize-box .name {
+    padding: 34px 0 24px;
+    color: #0c5cff;
+    font-family: "Ping Fang HK", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.prize .prize-box .detail {
+    width: 280px;
+    height: 44px;
+    margin: 0 auto;
+    line-height: 44px;
+    color: #ffffff;
+    font-family: "Ping Fang HK", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12px;
+    background-color: #0c5cff;
+    border-radius: 22px;
+}
+
+.prize .prize-box .detail span {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.game {
+    margin-top: 24px;
+    height: 1207px;
+    background: url("../images/gamebg.png") center fixed;
+}
+
+.game .game-center {
+    width: 1096px;
+    position: relative;
+    margin: 70px auto 0;
+}
+
+.game .game-center .game-img {
+    position: absolute;
+    top: 140px;
+    left: -40px;
+}
+
+.game .game-center .game-img img {
+    width: 685px;
+    height: auto;
+}
+
+.game .game-center .description {
+    position: absolute;
+    top: 140px;
+    left: 685px;
+    color: #8b572a;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.game .game-center .description > div {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+.game .game-center .description img {
+    margin-bottom: 30px;
+}
+
+.game .game-center .answer-img {
+    position: absolute;
+    top: 380px;
+    left: 685px;
+}
+
+.game .encyclopedia {
+    position: absolute;
+    top: 900px;
+    left: 50%;
+    margin-left: -336px;
+    width: 670px;
+    color: #8b572a;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.game .encyclopedia p {
+    padding: 40px 0 15px 0;
+}
+
+.game .encyclopedia a {
+    color: #8b572a;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #8b572a;
+}
+
+.answer {
+    background-color: #fff3d1;
+}
+
+.answer form {
+    width: 960px;
+    margin: 24px auto 0;
+    padding-top: 170px;
+}
+
+.answer form > div {
+    padding-bottom: 40px;
+}
+
+.answer form label {
+    float: left;
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    color: #8b572a;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 17px;
+}
+
+.answer form label.textarea-box {
+    height: 200px;
+    line-height: 200px;
+}
+
+.answer form input,
+.answer form select,
+.answer form textarea {
+    box-sizing: border-box;
+    width: 833px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #979797;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.answer form input {
+    background-color: #ffda6a;
+    box-shadow: inset 0 0 7px 0 #888888;
+}
+
+.answer form select {
+    background-color: #eeeeee;
+}
+
+.answer form textarea {
+    height: 200px;
+    background-color: #ffda6a;
+    box-shadow: inset 0 0 7px 0 #888888;
+}
+
+.answer form .button-box {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.answer form button.reset,
+.answer form button.send {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.answer form button.reset {
+    border: 1px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    margin-right: 62px;
+}
+
+.answer form button.send {
+    border: 1px solid #0E4BCC;
+    background-color: #0E4BCC;
+    color: #ffffff;
+}
+
+.answer form button.send:hover {
+    background-color: #3e6ed6;
+}
+
+.answer form button.reset:hover {
+    border: 1px solid rgba(151, 151, 151, .7);
+    color: rgba(151, 151, 151, .7);
+}
+
+.attention {
+    background-color: #fff;
+    padding: 60px 0 75px;
+}
+
+.attention .content {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.attention .content .content-box {
+    margin-bottom: 30px;
+}
+
+.attention .content .attention-img {
+    padding-bottom: 60px;
+}
+
+.attention .content .attention-title {
+    padding-bottom: 26px;
+}
+
+.attention .content .attention-title span {
+    display: inline-block;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #8b572a;
+    color: #8b572a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.attention .content .text-box {
+    color: #8b572a;
+    font-size: 16px;
+}
+
+.attention .content .attention-detail p {
+    padding-bottom: 30px;
+}
+
+.attention .content .attention-detail p:last-child {
+    padding-bottom: 0;
+}
+
+.footer {
+    background-color: #4a4a4a;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 27px;
+    text-align: center;
+}
+.footer img {
+    margin: -10px 42px 0 18px;
+}
+
+@media screen and (max-width: 1439px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .prize .farmer {
+        top: 30px;
+        left: 30px;
+    }
+    .footer {
+        letter-spacing: 15px;
+    }
+    .footer img {
+        margin: -10px 32px 0 18px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .header .header-img {
+        margin-left: 50px;
+    }
+
+    .header .nav {
+        right: 50px;
+    }
+
+    .game {
+        height: auto;
+    }
+
+    .game .game-center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .game .game-center .game-img {
+        position: static;
+        display: block;
+    }
+
+    .game .game-center .description {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .game .game-center .answer-img {
+        position: static;
+        display: block;
+        margin: 50px 0;
+    }
+
+    .game .encyclopedia {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .attention .content {
+        width: auto;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .prize .farmer {
+        display: none;
+    }
+
+    .prize {
+        height: auto;
+    }
+
+    .prize .prize-box {
+        width: 100%;
+    }
+
+    .prize .prize-box > div {
+        display: block;
+        margin: 0 !important;
+    }
+
+    .answer form {
+        width: auto;
+    }
+
+    .answer form label {
+        margin-left: 20px;
+    }
+
+    .answer form .input-box {
+        margin: 0 20px 0 147px;
+    }
+
+    .answer form input,
+    .answer form select,
+    .answer form textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .header {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .header .nav {
+        position: absolute;
+        left: 0;
+        top: -236px;
+        width: 100%;
+        z-index: -1;
+        transition: all 0.5s;
+    }
+
+    .header .nav.down {
+        top: 60px;
+        transition: all 0.5s;
+    }
+
+    .header .nav > span {
+        display: block;
+        width: 100%;
+        height: 38px;
+        line-height: 38px;
+        padding: 0 !important;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .header .nav .nav-fb,
+    .header .nav .nav-yt {
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .header .nav .nav-fb {
+        padding: 13px 0 16px !important;
+    }
+
+    .header .nav .nav-yt {
+        padding-bottom: 27px !important;
+    }
+
+    .header .menu-button.open {
+        display: block;
+    }
+
+    .banner {
+        margin-top: 60px;
+    }
+    .footer {
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .footer img {
+        width: 40px;
+        padding: -5px 22px 0 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .prize .prize-text,
+    .game .game-text {
+        margin: 140px 50px 0;
+        width: auto;
+    }
+
+    .game .game-center {
+        margin-top: 30px;
+    }
+
+    .game .game-center .game-img img {
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        height: 90px;
+        line-height: 90px;
+    }
+    .footer span{
+        display: block;
+        height: 45px;
+        line-height: 45px;
+        text-align:justify;
+        margin: 0 20px 0 90px;
+    }
+    .footer span:after {
+        content: " ";
+        display: inline-block;
+        width: 100%;
+    }
+    .footer img {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        margin: 0!important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .answer form .button-box button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .answer form .button-box .reset {
+        margin-bottom: 23px;
+    }
+
+    .attention .content .attention-img {
+        text-align: center;
+    }
+
+    .answer form label {
+        display: block;
+        text-align: left;
+        float: none;
+    }
+
+    .answer form .input-box {
+        margin: 0 20px 0 20px;
+    }
+
+    .answer form label.textarea-box {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .answer form input,
+    .answer form select,
+    .answer form textarea {
+        margin-bottom: 10px;
+    }
+
+    .header .header-img {
+        margin-left: 21px;
+    }
+    .answer form {
+        padding-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .attention .content .attention-img {
+        margin: 0 20px;
+    }
+
+    .attention .content .attention-img img {
+        width: 100%;
+    }
+
+    .prize .prize-box > div {
+        margin: 0 20px !important;
+    }
+
+    .prize .prize-box > div img {
+        width: 100%;
+    }
+
+    .game .game-center .description > div {
+        display: block;
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .game .game-center .answer-img {
+        margin: 50px 20px;
+    }
+
+    .game .game-center .answer-img img {
+        width: 100%;
+    }
+
+    .prize .prize-text, .game .game-text {
+        font-size: 18px;
+        margin: 140px 30px 0 50px;
+        width: auto;
+    }
+
+}
+@media screen and (max-width: 350px){
+    .prize .prize-box .detail {
+        width: 250px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 20px;
+    }
+}
+
+#tips{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
