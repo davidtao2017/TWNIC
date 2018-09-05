@@ -196,8 +196,8 @@ s, i, em {
 }
 
 .story {
-	background-color: #FFD76A;
-    padding: 60px 0 75px;
+	background-color: #A7D9EE;
+    padding: 60px 0 110px;
 	
 }
 
@@ -206,12 +206,21 @@ s, i, em {
 }
 
 .story .content {
+    position: relative;
     width: 1000px;
     margin: 0 auto;
 }
-
+.story .content i{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 9px;
+    height: 210px;
+    background-color: #14438b;
+}
 .story-text {
-	 color: #4a4a4a;
+	 color: #4A4A4A;
     font-size: 20px;
     font-weight: 400;
 }
@@ -225,6 +234,14 @@ s, i, em {
     height: 70px;
     background-color: #4a4a4a;
 }
+.story .story-text span{
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+}
+.story .story-text img{
+    margin: -3px 10px 0;
+}
 
 .top-img {
     position: absolute;
@@ -232,10 +249,12 @@ s, i, em {
     left: 50%;
     margin-left: -111px;
 }
-
+.wave{
+    overflow: hidden;
+}
 .prize {
-    height: 1222px;
-    margin-top: 24px;
+    height: 1350px;
+    margin-top: -100px;
     background: url("../images/bigprize_bg.jpg") center fixed;
     background-size: 1440px;
 }
@@ -252,7 +271,7 @@ s, i, em {
     margin: 140px auto 0;
     width: 560px;
     color: #4a4a4a;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -263,7 +282,7 @@ s, i, em {
     top: 5px;
     left: -25px;
     width: 9px;
-    height: 70px;
+    height: 88px;
     background-color: #4a4a4a;
 }
 
@@ -280,15 +299,15 @@ s, i, em {
 }
 
 .prize .prize-box > div:nth-child(2n-1) {
-    margin-right: 76px;
+    margin-right: 72px;
 }
 
 .prize .prize-box .name {
     padding: 34px 0 24px;
-    color: #0c5cff;
+    color: #AE7441;
     font-family: "Ping Fang HK", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     letter-spacing: 0.1px;
 }
 
@@ -303,7 +322,7 @@ s, i, em {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.12px;
-    background-color: #0c5cff;
+    background-color: #AE7441;
     border-radius: 22px;
 }
 
@@ -314,21 +333,29 @@ s, i, em {
     margin-left: 20px;
 }
 
+.wave.down{
+    margin-top: -75px;
+}
+
 .game {
-    margin-top: 24px;
+    position: relative;
     height: 1207px;
-    background: url("../images/gamebg.png") center fixed;
+    background: #a7d9ee;
+}
+
+.game .game-top-img{
+    top: -100px;
 }
 
 .game .game-center {
     width: 1096px;
     position: relative;
-    margin: 70px auto 0;
+    margin: 0 auto;
 }
 
 .game .game-center .game-img {
     position: absolute;
-    top: 140px;
+    top: 100px;
     left: -40px;
 }
 
@@ -339,14 +366,22 @@ s, i, em {
 
 .game .game-center .description {
     position: absolute;
-    top: 140px;
+    top: 160px;
     left: 685px;
-    color: #8b572a;
-    font-size: 18px;
+    color: #AE7441;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
 }
-
+.game .game-center .description i{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 9px;
+    height: 245px;
+    background-color: #AE7441;
+}
 .game .game-center .description > div {
     display: inline-block;
     width: 400px;
@@ -359,7 +394,7 @@ s, i, em {
 
 .game .game-center .answer-img {
     position: absolute;
-    top: 380px;
+    top: 440px;
     left: 685px;
 }
 
@@ -369,8 +404,8 @@ s, i, em {
     left: 50%;
     margin-left: -336px;
     width: 670px;
-    color: #8b572a;
-    font-size: 24px;
+    color: #AE7441;
+    font-size: 22px;
     font-weight: 400;
     text-align: center;
 }
@@ -380,21 +415,33 @@ s, i, em {
 }
 
 .game .encyclopedia a {
-    color: #8b572a;
+    color: #AE7441;
     font-size: 24px;
     font-weight: 400;
     padding-bottom: 12px;
-    border-bottom: 2px solid #8b572a;
+    border-bottom: 2px solid #AE7441;
+}
+.arc{
+    background-color: #A7D9EE;
+}
+.arc img{
+    width: 100%;
+    display: block;
 }
 
 .answer {
-    background-color: #fff3d1;
+    background-color: #02275D;
 }
-
+.answer>.ac{
+    padding-top: 80px;
+}
+.answer .answer-img{
+    width: 360px;
+}
 .answer form {
     width: 960px;
-    margin: 24px auto 0;
-    padding-top: 170px;
+    margin: 0 auto;
+    padding-top: 90px;
 }
 
 .answer form > div {
@@ -407,21 +454,15 @@ s, i, em {
     width: 110px;
     height: 50px;
     line-height: 50px;
-    color: #8b572a;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     text-align: right;
     margin-right: 17px;
 }
 
-.answer form label.textarea-box {
-    height: 200px;
-    line-height: 200px;
-}
-
 .answer form input,
-.answer form select,
-.answer form textarea {
+.answer form select{
     box-sizing: border-box;
     width: 833px;
     height: 50px;
@@ -435,19 +476,14 @@ s, i, em {
 }
 
 .answer form input {
-    background-color: #ffda6a;
+    background-color: #FDEECF;
     box-shadow: inset 0 0 7px 0 #888888;
 }
 
 .answer form select {
-    background-color: #eeeeee;
+    background-color: #FFFFFF;
 }
 
-.answer form textarea {
-    height: 200px;
-    background-color: #ffda6a;
-    box-shadow: inset 0 0 7px 0 #888888;
-}
 
 .answer form .button-box {
     text-align: center;
@@ -474,13 +510,13 @@ s, i, em {
 }
 
 .answer form button.send {
-    border: 1px solid #0E4BCC;
-    background-color: #0E4BCC;
+    border: 1px solid #F5A623;
+    background-color: #F5A623;
     color: #ffffff;
 }
 
 .answer form button.send:hover {
-    background-color: #3e6ed6;
+    background-color: #f7b74e;
 }
 
 .answer form button.reset:hover {
@@ -504,6 +540,7 @@ s, i, em {
 
 .attention .content .attention-img {
     padding-bottom: 60px;
+    text-align: center;
 }
 
 .attention .content .attention-title {
@@ -580,6 +617,7 @@ s, i, em {
     .game .game-center {
         width: 100%;
         text-align: center;
+        margin-top: 60px;
     }
 
     .game .game-center .game-img {
@@ -602,7 +640,12 @@ s, i, em {
         display: none;
     }
 }
-
+@media screen and (max-width: 1100px) {
+    .story .content {
+        width: auto;
+        margin: 0 20px 0 50px;
+    }
+}
 @media screen and (max-width: 1060px) {
     .attention .content {
         width: auto;
@@ -620,7 +663,8 @@ s, i, em {
     }
 
     .prize .prize-box {
-        width: 100%;
+        height: auto;
+        padding-bottom: 150px;
     }
 
     .prize .prize-box > div {
@@ -699,6 +743,9 @@ s, i, em {
 
     .banner {
         margin-top: 60px;
+    }
+    .prize .prize-box {
+        width: 100%;
     }
     .footer {
         height: 60px;
@@ -816,7 +863,7 @@ s, i, em {
     .game .game-center .description > div {
         display: block;
         width: auto;
-        margin: 0 20px;
+        margin: 0 20px 0 50px;
     }
 
     .game .game-center .answer-img {

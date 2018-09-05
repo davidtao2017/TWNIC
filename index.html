@@ -1,222 +1,374 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>107年度財政部優質酒類認證制度網路宣導</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        if ($(window).width() > 768) {
+            wow = new WOW({offset: 100});
+        } else {
+            wow = new WOW({offset: 250});
+        }
+        wow.init();
+    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="toTop" content="true">
-		<title></title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/medi.css" />
-		<link rel="stylesheet" type="text/css" href="css/swiper-4.3.3.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
-		<link rel="stylesheet" type="text/css" href="css/colorbox.css" />
-	</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125141642-1"></script>
 
-	<body>
-		<header class="header">
-			<div class="container">
-				<div class="row max-hei">
-					<div class="col-sm-8 col-xs-8">
-						<a href="https://www.twnic.net.tw" target="_blank" class="tw-logo" style="float: left"><img src="img/icons/twnic_logo.svg"></a>
-					</div>
-					<div class="col-sm-4 hidden-xs nav-links">
-						<div class="head-text">
-							<a class="scroll-link button-1" href="#section2">活動訊息</a>
-							<a class="scroll-link button-2" href="#section3">影音專區</a>
-						</div>
-						<div class="head-fbyout hidden-sm">
-							<a href="https://www.facebook.com/twnicNEWS/" target="_blank"><img src="img/icons/facebook_logo.svg" /></a>
-							<a href="https://www.youtube.com/channel/UCVY-vutrbDox3VD9Tuu50SQ/videos" target="_blank"><img src="img/icons/youtube_logo.svg" /></a>
-						</div>
-					</div>
-					<div class="col-sm-4 col-xs-4 visible-xs text-right">
-						<img class="sanheng" src="img/icons/hengpai.svg" />
-						<div class="mob-tit">
-							<a class="button-1" href="#section2">活動訊息</a>
-							<a class="button-2" href="#section3">影音專區</a>
-							<a href="https://www.facebook.com/twnicNEWS/" target="_blank"><img src="img/icons/facebook_logo.svg" /></a>
-							<a href="https://www.youtube.com/channel/UCVY-vutrbDox3VD9Tuu50SQ/videos" target="_blank"><img src="img/icons/youtube_logo.svg" /></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="swiper-max">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><img src="img/TWNIC-banner_01.jpg" /></div>
-					<div class="swiper-slide"><img src="img/TWNIC-banner_02.jpg" /></div>
-					<div class="swiper-slide"><img src="img/TWNIC-banner_03.jpg" /></div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-		</div>
-		<div id="section2" class="apply-max">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 col-xs-3">
-						<div class="bor-b"></div>
-					</div>
-					<div class="col-sm-4 col-xs-6 text-center aply-text">
-						<img src="img/add.png" />
-						<a href="https://www.twnic.net.tw/dnservice_register_keep.php" target="_blank" title="翻轉域名at.tw">
-							<h3 class="boldtitle">立即申請</h3></a>
-					</div>
-					<div class="col-sm-4 col-xs-3">
-						<div class="bor-b"></div>
-					</div>
-				</div>
-				<div class="active-text">
-					<img class="" src="img/icons/arrow_icon-30x30.svg" />
-					<h3 class="boldtitle">活動訊息</h3>
-				</div>
-				<div id="info-new">
+<script>
 
-				</div>
-				<script id="new-add-info" type="text/template">
-					<div class="row">
-						{{#each this}}
-						<div class="col-sm-6">
-							<img class="img-top-bor" width="100%" src="{{info-img}}" />
-							<p class="ac-main-text" title="{{info-txt}}">{{info-txt}}</p>
-							<div class="text-center">
-								{{{info-href}}}
-							</div>
-						</div>
-						{{/each}}
-					</div>
-				</script>
-				<div class="text-center more">
-					<img src="img/icons/down.svg" />
-					<p id="more-info">更多活動訊息</p>
-				</div>
-			</div>
-		</div>
-		<div id="section3" class="video-max">
-			<div class="container">
-				<div class="active-text">
-					<img class="" src="img/icons/arrow_icon-30x30.svg" />
-					<h3 class="boldtitle">影音專區</h3>
-				</div>
-				<div id="new-movie">
+  window.dataLayer = window.dataLayer || [];
 
-				</div>
-				<script id="new-add-movies" type="text/template">
-					<div class="row">
-						{{#each this}}
-						<div class="col-sm-6 text-center">
-							<div class="vide-min">
-								<div class="vide-img">
-									<img src="{{movie-img}}" />
-								</div>
-								<div class={{Class-vide-text}}>
-									<h4 class=" col-xl-4 vide-title">{{movie-title}}</h4>
-									{{{play-icon}}}
-									<p class="vide-conten">{{movie-txt}}</p>
-								</div>
-							</div>
-						</div>
-						{{/each}}
-					</div>
-				</script>
-				<div class="text-center more">
-					<img src="img/icons/down2.svg" />
-					<p style="color: #3686c4;" id="more-movie">更多影片</p>
-				</div>
-			</div>
-		</div>
-		<div class="subscribe">
-			<form action="" method="post" name="form1" id="form">
-				<div class="container-fluid subs-text">
-					<div class="row xzgd">
-						<div class="col-md-4 text-right">
-							<p>訂閱電子報,請輸入email：</p>
-						</div>
-						<div class="col-md-6 text-center">
-							<input name="email" type="text" class="inputbox" placeholder="訂閱 EMAIL" size="25" />
-						</div>
-						<div class="col-md-2">
-							<button onclick="javascript:window.open('http://www.myhome.net.tw/email.cgi?S=S&amp;email=' + document.form1.email.value,'popupnav','width=340,height=220,resizable=1,scrollbars=auto')">訂閱</button>
+  function gtag(){dataLayer.push(arguments);}
 
-						</div>
-					</div>
-				</div>
-			</form>
-		</div>
-		<div class="lxus">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-sm-3 col-xs-6">
-						<img src="img/icons/contactus_icon.svg" />
-						<h3>聯絡我們</h3>
-						<p>總機：+886-2-23411313</p>
-						<p>傳真：+886-2-23968832</p>
-					</div>
-					<div class="col-sm-3 col-xs-6" style="margin-bottom: 30px;">
-						<img src="img/icons/consultant_icon.svg" />
-						<h3>客服</h3>
-						<p>電話：+886-2-23413300</p>
-						<p>傳真：+886-2-23968801</p>
-						<a href="https://www.twnic.net.tw/service"><h6>www.twnic.net.tw/service</h6></a>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<img src="img/icons/facebookfooter_icon.svg" />
-						<h3>fb粉絲專頁</h3>
-						<a href="https://www.facebook.com/twnicNEWS/">域名之友</a>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<img src="img/icons/youtubefooter_icon.svg" />
-						<h3>Youtube</h3>
-						<a href="https://www.youtube.com/channel/UCVY-vutrbDox3VD9Tuu50SQ/videos">域名之友</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copy">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="https://www.twnic.net.tw" target="_blank" class="tw-logo"><img src="img/icons/twnic_logo.svg"></a>
-					</div>
-					<div class="col-xs-12 visible-xs text-center">
-						<h5 class="back-top" id="toTop">BACK TO TOP</h5>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<p>100臺北市羅斯福路二段9號4樓之2 | 4F-2, No. 9, Roosevelt Rd., Sec. 2, Taipei 100, Taiwan</p>
-						<p>Copyright 2018 | 財團法人台灣網路資訊中心 | All Rights Reserved.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="filmPop" class="filmPop">
-            <div class="filmPopContainer"><div>
-                <iframe id="player" class="filmPopholder" width="90%" frameborder="0" allowfullscreen="1" height="54%" src="https://www.youtube.com/embed/M8pUOwEIrmU?rel=0&autoplay=1"></iframe>
-				<p style="color: #FFFFFF; padding:100px 5px 5px 20px;">請點擊影片外任意處關閉</p>
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-125141642-1');
+
+</script>
+
+
+</head>
+<body>
+	<script src="//cdn.doublemax.net/js/rtid.js"></script>
+<script src="//dmp.eland-tech.com/dmpreceiver/eland_tracker.js"></script>
+<script async src="https://cdn.doublemax.net/dmp/cft/tracker.js"></script>
+
+<script>
+    clickforce_rtid("8625002");
+    ElandTracker.Track({
+        'source': 'CAP8625',
+        'trackType': 'view',
+        'trackSubfolderDepth': 3,
+        'targetType': 'pageView'
+    });
+    clickforce_rtid("8625001");
+    ElandTracker.Track({
+        'source': 'CAP8625',
+        'trackType': 'view',
+        'trackSubfolderDepth': 3,
+        'targetType': 'usual'
+    });
+
+    window.cft = window.cft || function () {
+        (cft.q = cft.q || []).push([].slice.call(arguments))
+    };
+    cft('setSiteId', 'CF-180800003687');
+    cft('setEnableCookie');
+    cft('setViewPercentage');
+    cft('setTPCookie');
+</script>
+<header class="header">
+    <div class="wrapper pr">
+        <a href="#" class="header-img">
+            <img src="images/logo.png" alt="">
+        </a>
+        <nav class="nav">
+            <span class="nav-text"><a class="top-link" data-offset="102" href="#prize">優質大獎</a></span><span
+                class="nav-text"><a class="top-link" data-offset="185" href="#game">闖關大挑戰</a></span><span
+                class="nav-text"><a class="top-link" data-offset="180" href="#answer">我要拿大獎</a></span><span
+                class="nav-text"><a class="top-link" data-offset="102" href="#attention">活動須知</a></span><span
+                class="nav-fb"><a href="https://www.facebook.com/mofnta/" target="_blank" ><img src="images/facebook.svg" alt=""></a></span>
+
+        </nav>
+        <img class="menu-button open" src="images/menu.svg" alt="">
+        <img class="menu-button close" src="images/close.svg" alt="">
+    </div>
+</header>
+<div class="banner">
+    <img src="images/banner.png" alt="">
+</div>
+<div class="story">
+    <div class="wrapper" id="story">
+        <div class="content">
+            <i></i>
+            <div class="story-title">
+                <img src="images/douknow.svg" alt="">
+            </div>
+            <p class="story-text">
+                財政部自92年起推動「優質酒類認證制度」，申請酒品認證須通過重重審核，包含「資格審查、現場評核、酒品抽驗、提報認證技術委員會審議通過」等嚴格的標準規範，才會給予優質酒類的認證！並定期追蹤查驗，確保品質及衛生安全，為民眾把關！
+                <br><span><img src="images/icon.png" alt="">是國內最具公信力，安全又衛生的酒品認證標誌！<img src="images/icon.png" alt="">安心有保障</span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="wave">
+    <img src="images/waveup.png" alt="">
+</div>
+<div class="prize">
+    <div class="wrapper pr clear-fix" id="prize">
+        <img class="top-img" src="images/bigprize.svg" alt="">
+        <img class="farmer" src="images/farmer.png" alt="">
+        <p class="prize-text">
+            <i></i>
+            藉由閱讀完優質酒類認證標誌小短文，完成簡單的互動小遊戲，讓大家可以更明白優質酒類認證標誌及背後意涵之目的！
+        </p>
+        <div class="prize-box clear-fix">
+            <div class="wow bounceInLeft">
+                <img src="images/nt300.png" alt="">
+                <div class="name">便利商店電子購物金</div>
+                <div class="detail">市價NT$300<span>50名</span></div>
+            </div>
+            <div class="wow bounceInRight">
+                <img src="images/nt200.png" alt="">
+                <div class="name">便利商店電子購物金</div>
+                <div class="detail">市價NT$200<span>80名</span></div>
+            </div>
+            <div class="wow bounceInLeft">
+                <img src="images/nt100.png" alt="">
+                <div class="name">便利商店電子購物金</div>
+                <div class="detail">市價NT$100<span>20名</span></div>
             </div>
         </div>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/swiper-4.3.3.min.js"></script>
-		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
-		<script type="text/javascript" src="js/jquery.colorbox-zh-TW.js"></script>
-		<script type="text/javascript" src="js/handlebars-v4.0.11.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-		<script type="text/javascript">
-			var mySwiper = new Swiper('.swiper-container', {
-				direction: 'horizontal',
-				loop: true,
-				pagination: {
-					el: '.swiper-pagination',
-					clickable: true,
-				},
-				autoplay: {
-					stopOnLastSlide: true,
-					delay: 4000,
-				}
-			})
-		</script>
-	</body>
+    </div>
+</div>
+<div class="wave down">
+    <img src="images/wavedown.png" alt="">
+</div>
+<div class="game">
+    <div class="wrapper pr clear-fix" id="game">
+        <img class="top-img game-top-img" src="images/bigchallenge.svg" alt="">
+        <div class="game-center">
+            <div class="game-img">
+                <img class="wow bounceInLeft" src="images/game.png" alt="">
+            </div>
+            <div class="description wow bounceInRight">
+                <div class="pr">
+                    <i></i>
+                    <img src="images/instructions.svg" alt="">
+                    <p>讓我們一起來轉轉眼球動動腦！財政部從92年開始推動的什麼認證標誌，包含「資格審查、現場評核、酒品抽驗、提報認證技術委員會審議通過」等重重把關，定期追蹤酒品的品質及衛生安全，空格的1234到底說的是什麼呢？</p>
+                </div>
+            </div>
+            <div class="answer-img">
+                <img class="wow bounceInRight" src="images/answer.png">
+            </div>
+        </div>
+        <div class="encyclopedia wow bounceInUp" data-wow-offset="100">
+            <img src="images/encyclopedia.svg" alt="">
+            <p>除了上述小短文之外，想知道更多關於優質酒類認證誌的內容嗎？</p>
+            <a href="https://goo.gl/PWx8bv" target="_blank" >點我了解更多!</a>
+            <p style="font-size: 18px">(了解更多之附件內容為「優質酒類認證酒品清單」)</p>
+        </div>
+    </div>
+</div>
+<div class="arc">
+    <img src="images/answerbuttom.png" alt="">
+</div>
+<div class="answer">
+    <div class="ac">
+        <img class="answer-img" src="images/takeprize1.svg" alt="">
+    </div>
+    <div class="wrapper pr" id="answer">
+        <form id="form">
+            <div>
+                <div><label for="name">姓名：</label>
+                    <div class="input-box"><input type="text" id="name" name="name" placeholder="e.g.王大明（必填）"></div>
+                </div>
+                <div><label for="phone">手機：</label>
+                    <div class="input-box"><input type="text" id="phone" name="phone" placeholder="e.g.0912123456（必填）"></div>
+                </div>
+                <div><label for="email">電子信箱：</label>
+                    <div class="input-box"><input type="text" id="email" name="email" placeholder="請填寫正確有效的電子信箱（必填）"></div>
+                </div>
+            </div>
+            <div>
+                <div><label for="answer1">答案1：</label>
+                    <div class="input-box"><select name="answer1" id="answer1">
+                        <option value="none">請選擇您的答案（必填）</option>
+                        <option value="優">優</option>
+                        <option value="悠">悠</option>
+                        <option value="幽">幽</option>
+                        <option value="憂">憂</option>
+                    </select></div>
+                </div>
+                <div><label for="answer2">答案2：</label>
+                    <div class="input-box"><select name="answer2" id="answer2">
+                        <option value="none">請選擇您的答案（必填）</option>
+                        <option value="質">質</option>
+                        <option value="直">直</option>
+                        <option value="植">植</option>
+                        <option value="執">執</option>
+                    </select></div>
+                </div>
+                <div><label for="answer3">答案3：</label>
+                    <div class="input-box"><select name="answer3" id="answer3">
+                        <option value="none">請選擇您的答案（必填）</option>
+                        <option value="酒">酒</option>
+                        <option value="九">九</option>
+                        <option value="久">久</option>
+                        <option value="韭">韭</option>
+                    </select></div>
+                </div>
+                <div><label for="answer4">答案4：</label>
+                    <div class="input-box"><select name="answer4" id="answer4">
+                        <option value="none">請選擇您的答案（必填）</option>
+                        <option value="類">類</option>
+                        <option value="累">累</option>
+                        <option value="淚">淚</option>
+                        <option value="擂">擂</option>
+                    </select></div>
+                </div>
+            </div>
+            <div>
+                <div class="button-box">
+                    <button class="reset" type="reset">取消重填</button>
+                    <button class="send" type="button" id="send">送出</button>
+                </div>
+                <div id="tips"></div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="attention">
+    <div class="wrapper" id="attention">
+        <div class="content">
+            <div class="attention-img">
+                <img src="images/attention.svg" alt="">
+            </div>
+            <div class="content-box">
+                <div class="attention-title">
+                    <span>抽獎說明:</span>
+                </div>
+                <div class="text-box">
+                    <p>1. 請於活動時間內進行活動參與，需閱讀完全文可從中找到答案，進行答案選填，答對者即可進行抽獎。</p>
+                    <p>2. 抽獎資料應填妥正確，獎品寄發將以網站資料為主，若提供資料有誤導致禮品無法送達，恕不補發！</p>
+                    <p>3. 得獎名單將於2018/12/08公布於此活動網站下方及「財政部國庫署.財政我最庫」粉絲團。</p>
+                    <p>4. 中獎人請留意得獎公告時間(2018/10/24-2018/10/27)，主辦單位將於2018/10/29前將禮品序號發送至得獎者手機。</p>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="attention-title">
+                    <span>兌獎流程:</span>
+                </div>
+                <div class="text-box ac">
+                    <p>中獎名單公布(2018/12/10-2018/12/12)</p>
+                    <p>↓</p>
+                    <p>主辦單位寄發便利商店電子購物金兌換簡訊(2018/12/12前寄發)</p>
+                    <p>↓</p>
+                    <p>得獎者可攜帶兌換簡訊之電子序號至門市進行兌換使用</p>
+                    <p>↓</p>
+                    <p>(有效期限：2019/03/31)</p>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="attention-title">
+                    <span>注意事項:</span>
+                </div>
+                <div class="text-box attention-detail">
+                    <p>1. 中獎者應遵守各獎項兌換辦法即可兌換；倘未依約定者，視為放棄中獎權利。</p>
+                    <p>2.
+                        活動參加者須保證所有填寫或提出之資料均為真實且正確，並未冒用或盜用他人資料，如有不實或不正確資訊，主辦單位將取消中獎資格，並就其損害主辦單位或任何第三人權益，保留一切民、刑事追訴之責。</p>
+                    <p>3.
+                        主辦單位僅使用參加者所提供之個人資料於此次活動用途，且遵守【個人資料保護法】規定，以維護參加者權益。中獎人同意中獎相關個人資訊由主辦單位於活動範圍內進行蒐集、電腦處理及利用，但不做其他用途，中獎人並授權主辦單位得公開公布姓名(例：王○明，0937-XXX-541)。</p>
+                    <p>4.
+                        中獎人請留意得獎公告時間(2018/10/24-2018/10/27)，主辦單位將於2018/10/29前將便利商店電子購物金序號發送至得獎者手機。</p>
+                    <p>5. 敬請確認個人資料填寫正確性，倘因得獎人資料未填寫清楚、填寫錯誤/不實、門號未開機使用，導致電子禮券無法正確寄發者，視同放棄獲獎資格。</p>
+                    <p>6. 本活動如任何電腦、網路、電話等其他不可歸責於主辦單位之原因，導致未能完整填寫資料，則主辦單位無須為此負任何責任。</p>
+                    <p>7.
+                        主辦單位保留修改活動內容與獎項細節之權利，無須事前另行告知，並有權對本活動所有事宜作出調整或裁決。如本活動因不可抗力之原因無法執行時，主辦單位有權決定取消、終止、修改或暫停本活動，如有任何未盡事宜均應受中華民國法律約束。本次活動所留之個人資料，主辦單位僅為此活動一次性使用，活動結束後將不保留任何參加者之完整資料。</p>
+                    <p>8. 於參加本活動之同時，即同意接受本活動所有內容及細則之規範，如有違反本活動注意事項之行為，活動小組將取消其參加或中獎資格，並對於任何破壞活動之行為保留法律追訴權。</p>
+                    <p>9. 得獎人請於電子禮券兌換期限前兌換完畢，倘未於電子禮券兌換期限前完成兌換，不得向主辦單位為任何主張或請求。</p>
+                    <p>10. 得獎人應自行妥善保管通知電子禮券兌換之簡訊，倘因不可歸責於主辦單位之事由（如：得獎人自行刪除通知簡訊），致得獎人無法兌換電子禮券時，得獎人不得再要求補寄送。</p>
+                </div>
+            </div>
+            <div class="text-box">
+                主辦單位：財政部國庫署
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="wrapper pr">
+        <span>禁止酒駕</span><img src="images/sign.png" alt=""><span>未滿十八歲禁止飲酒</span>
+    </div>
+</footer>
+</body>
+<script>
+    $("a.top-link").click(function () {
+        let aa=$(this).data('offset');
+        if ($(window).width() < 940) {
+            aa-=20;
+        }
+        $("html, body").animate({
+            scrollTop: (($($(this).attr("href")).offset().top) - aa) + "px"
+        }, {
+            duration: 500,
+            easing: "swing"
+        });
+        if ($(window).width() < 940) {
+            $('.nav').removeClass('down');
+            $('.open').toggle(500);
+            $('.close').toggle(500);
+        }
+        return false;
+    });
+    $('.menu-button').on('click', function () {
+        const nav = $('.nav');
+        if (nav.hasClass('down')) {
+            nav.removeClass('down');
+        } else {
+            nav.addClass('down');
+        }
+        $('.open').toggle(500);
+        $('.close').toggle(500);
+    });
+    $('#send').on('click', function () {
+        const tips = $('#tips');
+        tips.text('');
+        const form = $('#form');
+        const num = /[0-9]+/;
+        const email = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
+        if (form.find('#name').val() === '') {
+            tips.text('請輸入姓名');
+            return false;
+        }
+        if (form.find('#phone').val() === '') {
+            tips.text('請輸入手機號碼');
+            return false;
+        }
+        if (!num.test(form.find('#phone').val())) {
+            tips.text('請輸入正確的手機號碼');
+            return false;
+        }
+        if (form.find('#email').val() === '') {
+            tips.text('請輸入郵箱地址');
+            return false;
+        }
+        if (!email.test(form.find('#email').val())) {
+            tips.text('請輸入正確的郵箱地址');
+            return false;
+        }
+        if (form.find('#address').val() === '') {
+            tips.text('請輸入地址');
+            return false;
+        }
+        if (form.find('#answer1').val() === 'none') {
+            tips.text('請選擇答案1');
+            return false;
+        }
+        if (form.find('#answer2').val() === 'none') {
+            tips.text('請選擇答案2');
+            return false;
+        }
+        if (form.find('#answer3').val() === 'none') {
+            tips.text('請選擇答案3');
+            return false;
+        }
+        if (form.find('#answer4').val() === 'none') {
+            tips.text('請選擇答案4');
+            return false;
+        }
+        $.post('', form.serialize(), function (res) {
 
+        })
+    })
+</script>
 </html>
