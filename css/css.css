@@ -28,31 +28,31 @@ select, input, textarea {
     margin: 0;
 }
 
-/*禁止手动修改大小*/
+/*禁止手動修改大小*/
 textarea {
     resize: none;
 }
 
-/*去掉图片底部默认空白缝隙*/
+/*去掉图片底部默認空白缝隙*/
 img {
     border: 0;
     vertical-align: middle;
 }
 
-/*合并外连线*/
+/*合并外連線*/
 table {
     border-collapse: collapse;
 }
 
 body {
-    font-family: "Noto Sans CJK SC", "Noto Sans TC", sans-serif, "Microsoft YaHei", "PingFang sc", "Lantinghei TC", "Microsoft JhengHei", "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", Arial;
-    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "Microsoft YaHei", "PingFang sc", "Lantinghei TC", "Microsoft JhengHei", "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", Arial;
+    font-size: 16px;, 
     color: #666;
     background: #eeeeee;
     overflow-x: hidden;
 }
 
-/*清除浮动*/
+/*清除浮動*/
 .clear-fix:before, .clear-fix:after {
     content: "";
     display: table;
@@ -220,7 +220,7 @@ s, i, em {
     background-color: #14438b;
 }
 .story-text {
-	 color: #4A4A4A;
+	color: #4A4A4A;
     font-size: 20px;
     font-weight: 400;
 }
@@ -305,9 +305,9 @@ s, i, em {
 .prize .prize-box .name {
     padding: 34px 0 24px;
     color: #AE7441;
-    font-family: "Ping Fang HK", sans-serif;
+    font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "Microsoft YaHei", "PingFang sc", "Lantinghei TC", "Microsoft JhengHei", "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", Arial;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.1px;
 }
 
@@ -317,7 +317,7 @@ s, i, em {
     margin: 0 auto;
     line-height: 44px;
     color: #ffffff;
-    font-family: "Ping Fang HK", sans-serif;
+    font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "Microsoft YaHei", "PingFang sc", "Lantinghei TC", "Microsoft JhengHei", "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", Arial;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
@@ -370,7 +370,7 @@ s, i, em {
     left: 685px;
     color: #AE7441;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 .game .game-center .description i{
